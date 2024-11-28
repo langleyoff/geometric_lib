@@ -7,6 +7,7 @@ class SquareTestCase(unittest.TestCase):
     def test_area_base(self):
         self.assertEqual(1, area(1))
         self.assertEqual(25, area(5))
+        self.assertEqual(36, area(6))
 
     def test_area_zero(self):
         self.assertEqual(0, area(0))
